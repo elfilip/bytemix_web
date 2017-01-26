@@ -46,6 +46,22 @@ span.name {
   font-weight: 900;
 }
 
+.lead.vision-text{
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+  font-style: italic;
+}
+
+.lead.vision-text:before {
+position: absolute;
+content: "\201C";
+font-size: 80px;
+color: #7a7a7a;
+left: 120px;
+top: 20px;
+}
+
 .btn.btn-primary {
   background-color: #52b6ec;
 }
@@ -198,6 +214,9 @@ a:focus {
   font-size: 48px;
 }
 #about-us .box{
+  background: #f3f3f3;
+}
+#vision .box{
   background: #f3f3f3;
 }
 
